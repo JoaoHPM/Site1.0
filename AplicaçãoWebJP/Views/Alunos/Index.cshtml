@@ -1,0 +1,42 @@
+﻿<div class="text-left">
+    <div>
+        <h1>Dados dos Alunos</h1>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Contato</th>
+                <th scope="col">Email</th>
+                <th scope="col">Cep</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>João</td>
+                <td>17 anos</td>
+                <td>(47) 991587001</td>
+                <td>jao@gmail.com</td>
+                <td>88350-665</td>
+                <td><button class="btn btn-primary" type="submit">Endereço</button></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Maria</td>
+                <td>20 anos</td>
+                <td>(47) 991798001</td>
+                <td>maria@gmail.com</td>
+                <td>88360-000</td>
+                <td><button class="btn btn-primary" type="submit">Endereço</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+<div class="text-center">
+    <a class="btn btn-primary" type="button" asp-controller="Alunos" asp-action="Adicionar">Adicionar Novo Aluno</a>
+</div>
